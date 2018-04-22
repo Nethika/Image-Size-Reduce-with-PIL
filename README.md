@@ -4,10 +4,15 @@
 
 ```python size_reducer.py [input_folder_path] --out_path [output_folder_path] --width [pixel width an integer]``` 
 
- Example:
+ ### Examples:
 
- ```python size_reducer.py C:\Users\NethikaSuraweera\Pictures\EOS\rue4 --width 100```
+ ```python size_reducer.py large_images --out_path small_images --width 200```
 
+ ```python size_reducer.py C:\Users\NethikaSuraweera\Pictures\EOS\rue4 --width 150```
+ 
+ ```python size_reducer.py C:\Users\NethikaSuraweera\Pictures\EOS\rue4```
+  
+  
 
 If ```--output_folder_path``` is not given, the script will create a folder name formatted: ```small_images_YYYY_MM_DD-HH_MM_SS``` in the working directory.
 
